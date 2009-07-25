@@ -296,7 +296,7 @@
 							<real>258</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>43 -11 1436 878 0 0 1440 878 </string>
+						<string>0 0 1436 878 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -326,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>660BB22A101AEAF2002DD315</string>
+										<string>660BB235101AEC2A002DD315</string>
 										<key>history</key>
 										<array>
 											<string>660BB07C101AC1FD002DD315</string>
@@ -336,7 +336,9 @@
 											<string>660BB1E5101ADF5F002DD315</string>
 											<string>660BB1E6101ADF5F002DD315</string>
 											<string>660BB222101AE935002DD315</string>
-											<string>660BB223101AE935002DD315</string>
+											<string>660BB232101AEC2A002DD315</string>
+											<string>660BB233101AEC2A002DD315</string>
+											<string>660BB234101AEC2A002DD315</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -350,7 +352,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1156, 796}}</string>
 								<key>RubberWindowFrame</key>
-								<string>43 -11 1436 878 0 0 1440 878 </string>
+								<string>0 0 1436 878 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -370,7 +372,7 @@
 								<key>Frame</key>
 								<string>{{0, 801}, {1156, 36}}</string>
 								<key>RubberWindowFrame</key>
-								<string>43 -11 1436 878 0 0 1440 878 </string>
+								<string>0 0 1436 878 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -537,12 +539,12 @@
 		<string>660BB09D101AC473002DD315</string>
 		<string>660BB09E101AC473002DD315</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>660BB072101AC1EB002DD315</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/adam/src/Morse/Morse.xcodeproj</string>
+		<string>660BB072101AC1EB002DD315</string>
 	</array>
 	<key>WindowString</key>
-	<string>43 -11 1436 878 0 0 1440 878 </string>
+	<string>0 0 1436 878 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

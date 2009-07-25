@@ -29,9 +29,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* MorseViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 1781}}";
-			sepNavSelRange = "{3450, 0}";
-			sepNavVisRange = "{2409, 2004}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 1131}}";
+			sepNavSelRange = "{734, 0}";
+			sepNavVisRange = "{0, 1415}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -239,6 +239,10 @@
 			660BB224101AE935002DD315 /* PBXTextBookmark */ = 660BB224101AE935002DD315 /* PBXTextBookmark */;
 			660BB229101AEA23002DD315 /* PBXTextBookmark */ = 660BB229101AEA23002DD315 /* PBXTextBookmark */;
 			660BB22A101AEAF2002DD315 /* PBXTextBookmark */ = 660BB22A101AEAF2002DD315 /* PBXTextBookmark */;
+			660BB232101AEC2A002DD315 /* PBXTextBookmark */ = 660BB232101AEC2A002DD315 /* PBXTextBookmark */;
+			660BB233101AEC2A002DD315 /* PBXTextBookmark */ = 660BB233101AEC2A002DD315 /* PBXTextBookmark */;
+			660BB234101AEC2A002DD315 /* PBXTextBookmark */ = 660BB234101AEC2A002DD315 /* PBXTextBookmark */;
+			660BB235101AEC2A002DD315 /* PBXTextBookmark */ = 660BB235101AEC2A002DD315 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 660BB046101ABA3A002DD315 /* Source Control */;
 		userBuildSettings = {
@@ -320,7 +324,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 15";
 		rLen = 0;
-		rLoc = 3422;
+		rLoc = 419;
 		rType = 0;
 		vrLen = 635;
 		vrLoc = 0;
@@ -409,7 +413,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 16";
 		rLen = 0;
-		rLoc = 3761;
+		rLoc = 765;
 		rType = 0;
 		vrLen = 1443;
 		vrLoc = 0;
@@ -419,7 +423,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 16";
 		rLen = 0;
-		rLoc = 3761;
+		rLoc = 765;
 		rType = 0;
 		vrLen = 1443;
 		vrLoc = 0;
@@ -429,7 +433,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 16";
 		rLen = 0;
-		rLoc = 3484;
+		rLoc = 481;
 		rType = 0;
 		vrLen = 1421;
 		vrLoc = 0;
@@ -889,7 +893,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 17";
 		rLen = 0;
-		rLoc = 3484;
+		rLoc = 481;
 		rType = 0;
 		vrLen = 1424;
 		vrLoc = 0;
@@ -899,7 +903,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 17";
 		rLen = 0;
-		rLoc = 3484;
+		rLoc = 481;
 		rType = 0;
 		vrLen = 1424;
 		vrLoc = 0;
@@ -959,7 +963,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 17";
 		rLen = 0;
-		rLoc = 3484;
+		rLoc = 481;
 		rType = 0;
 		vrLen = 1424;
 		vrLoc = 0;
@@ -969,7 +973,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 24";
 		rLen = 0;
-		rLoc = 4057;
+		rLoc = 1061;
 		rType = 0;
 		vrLen = 1464;
 		vrLoc = 0;
@@ -979,7 +983,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 24";
 		rLen = 0;
-		rLoc = 4057;
+		rLoc = 1061;
 		rType = 0;
 		vrLen = 1511;
 		vrLoc = 0;
@@ -989,7 +993,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 26";
 		rLen = 0;
-		rLoc = 4065;
+		rLoc = 1069;
 		rType = 0;
 		vrLen = 1509;
 		vrLoc = 0;
@@ -999,7 +1003,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 43";
 		rLen = 0;
-		rLoc = 4411;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1500;
 		vrLoc = 0;
@@ -1009,7 +1013,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 38";
 		rLen = 0;
-		rLoc = 4318;
+		rLoc = 1322;
 		rType = 0;
 		vrLen = 1519;
 		vrLoc = 0;
@@ -1019,7 +1023,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 43";
 		rLen = 0;
-		rLoc = 4408;
+		rLoc = 1412;
 		rType = 0;
 		vrLen = 1458;
 		vrLoc = 0;
@@ -1029,7 +1033,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 41";
 		rLen = 0;
-		rLoc = 4340;
+		rLoc = 1344;
 		rType = 0;
 		vrLen = 1477;
 		vrLoc = 0;
@@ -1039,7 +1043,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 42";
 		rLen = 0;
-		rLoc = 4408;
+		rLoc = 1412;
 		rType = 0;
 		vrLen = 1518;
 		vrLoc = 0;
@@ -1049,7 +1053,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 42";
 		rLen = 0;
-		rLoc = 4408;
+		rLoc = 1412;
 		rType = 0;
 		vrLen = 1521;
 		vrLoc = 0;
@@ -1099,7 +1103,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 42";
 		rLen = 0;
-		rLoc = 4408;
+		rLoc = 1412;
 		rType = 0;
 		vrLen = 1518;
 		vrLoc = 0;
@@ -1109,7 +1113,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 17";
 		rLen = 0;
-		rLoc = 3484;
+		rLoc = 481;
 		rType = 0;
 		vrLen = 1500;
 		vrLoc = 0;
@@ -1149,7 +1153,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 37";
 		rLen = 0;
-		rLoc = 4318;
+		rLoc = 1322;
 		rType = 0;
 		vrLen = 1540;
 		vrLoc = 0;
@@ -1227,7 +1231,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 64";
 		rLen = 0;
-		rLoc = 5007;
+		rLoc = 2011;
 		rType = 0;
 		vrLen = 1452;
 		vrLoc = 214;
@@ -1307,7 +1311,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 63";
 		rLen = 0;
-		rLoc = 5007;
+		rLoc = 2011;
 		rType = 0;
 		vrLen = 1414;
 		vrLoc = 177;
@@ -1317,7 +1321,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 17";
 		rLen = 0;
-		rLoc = 3484;
+		rLoc = 481;
 		rType = 0;
 		vrLen = 1480;
 		vrLoc = 82;
@@ -1337,7 +1341,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 17";
 		rLen = 0;
-		rLoc = 3761;
+		rLoc = 765;
 		rType = 0;
 		vrLen = 1520;
 		vrLoc = 42;
@@ -1347,7 +1351,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 18";
 		rLen = 0;
-		rLoc = 3762;
+		rLoc = 766;
 		rType = 0;
 		vrLen = 1650;
 		vrLoc = 42;
@@ -1357,7 +1361,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 17";
 		rLen = 0;
-		rLoc = 3761;
+		rLoc = 765;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 42;
@@ -1367,7 +1371,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 17";
 		rLen = 0;
-		rLoc = 3761;
+		rLoc = 765;
 		rType = 0;
 		vrLen = 1594;
 		vrLoc = 42;
@@ -1377,7 +1381,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 17";
 		rLen = 0;
-		rLoc = 3484;
+		rLoc = 481;
 		rType = 0;
 		vrLen = 1640;
 		vrLoc = 42;
@@ -1387,7 +1391,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 10";
 		rLen = 0;
-		rLoc = 196;
+		rLoc = 220;
 		rType = 0;
 		vrLen = 1686;
 		vrLoc = 42;
@@ -1397,7 +1401,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 18";
 		rLen = 0;
-		rLoc = 3760;
+		rLoc = 764;
 		rType = 0;
 		vrLen = 1609;
 		vrLoc = 42;
@@ -1407,7 +1411,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 18";
 		rLen = 0;
-		rLoc = 3484;
+		rLoc = 481;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 42;
@@ -1417,7 +1421,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 16";
 		rLen = 0;
-		rLoc = 3396;
+		rLoc = 393;
 		rType = 0;
 		vrLen = 1605;
 		vrLoc = 42;
@@ -1497,7 +1501,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 16";
 		rLen = 0;
-		rLoc = 3396;
+		rLoc = 393;
 		rType = 0;
 		vrLen = 1605;
 		vrLoc = 42;
@@ -1507,7 +1511,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 43";
 		rLen = 0;
-		rLoc = 4408;
+		rLoc = 1412;
 		rType = 0;
 		vrLen = 1556;
 		vrLoc = 42;
@@ -1517,7 +1521,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 44";
 		rLen = 0;
-		rLoc = 4408;
+		rLoc = 1412;
 		rType = 0;
 		vrLen = 1562;
 		vrLoc = 82;
@@ -1527,7 +1531,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 18";
 		rLen = 0;
-		rLoc = 3484;
+		rLoc = 481;
 		rType = 0;
 		vrLen = 1650;
 		vrLoc = 82;
@@ -1537,7 +1541,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 40";
 		rLen = 0;
-		rLoc = 4343;
+		rLoc = 1347;
 		rType = 0;
 		vrLen = 1539;
 		vrLoc = 242;
@@ -1547,7 +1551,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 41";
 		rLen = 0;
-		rLoc = 4408;
+		rLoc = 1412;
 		rType = 0;
 		vrLen = 1539;
 		vrLoc = 242;
@@ -1557,7 +1561,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 42";
 		rLen = 1;
-		rLoc = 4410;
+		rLoc = 1414;
 		rType = 0;
 		vrLen = 1578;
 		vrLoc = 141;
@@ -1607,7 +1611,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 18";
 		rLen = 0;
-		rLoc = 3689;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 1593;
 		vrLoc = 141;
@@ -1617,7 +1621,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 20";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 651;
 		rType = 0;
 		vrLen = 1570;
 		vrLoc = 141;
@@ -1627,7 +1631,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 20";
 		rLen = 0;
-		rLoc = 3653;
+		rLoc = 650;
 		rType = 0;
 		vrLen = 1607;
 		vrLoc = 141;
@@ -1637,7 +1641,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 10";
 		rLen = 0;
-		rLoc = 200;
+		rLoc = 224;
 		rType = 0;
 		vrLen = 1607;
 		vrLoc = 141;
@@ -1647,7 +1651,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 20";
 		rLen = 0;
-		rLoc = 3652;
+		rLoc = 649;
 		rType = 0;
 		vrLen = 1606;
 		vrLoc = 141;
@@ -1683,9 +1687,9 @@
 		fRef = 660BB1AD101ADA30002DD315 /* MorseParser.h */;
 		name = "MorseParser.h: 15";
 		rLen = 0;
-		rLoc = 310;
+		rLoc = 317;
 		rType = 0;
-		vrLen = 257;
+		vrLen = 218;
 		vrLoc = 0;
 	};
 	660BB1B2101ADC0B002DD315 /* PBXTextBookmark */ = {
@@ -1693,9 +1697,9 @@
 		fRef = 660BB1AE101ADA30002DD315 /* MorseParser.m */;
 		name = "MorseParser.m: 29";
 		rLen = 0;
-		rLoc = 502;
+		rLoc = 3233;
 		rType = 0;
-		vrLen = 682;
+		vrLen = 197;
 		vrLoc = 0;
 	};
 	660BB1B3101ADC0B002DD315 /* PBXTextBookmark */ = {
@@ -1713,7 +1717,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 20";
 		rLen = 0;
-		rLoc = 3643;
+		rLoc = 640;
 		rType = 0;
 		vrLen = 1606;
 		vrLoc = 141;
@@ -1723,7 +1727,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 25";
 		rLen = 0;
-		rLoc = 3760;
+		rLoc = 764;
 		rType = 0;
 		vrLen = 1638;
 		vrLoc = 141;
@@ -1743,9 +1747,9 @@
 		fRef = 660BB1AD101ADA30002DD315 /* MorseParser.h */;
 		name = "MorseParser.h: 13";
 		rLen = 0;
-		rLoc = 260;
+		rLoc = 317;
 		rType = 0;
-		vrLen = 316;
+		vrLen = 218;
 		vrLoc = 0;
 	};
 	660BB1CC101ADDF6002DD315 /* PBXTextBookmark */ = {
@@ -1782,10 +1786,10 @@
 		isa = PBXTextBookmark;
 		fRef = 660BB1AE101ADA30002DD315 /* MorseParser.m */;
 		name = "MorseParser.m: 13";
-		rLen = 498;
-		rLoc = 191;
+		rLen = 6;
+		rLoc = 3227;
 		rType = 0;
-		vrLen = 695;
+		vrLen = 197;
 		vrLoc = 0;
 	};
 	660BB1D0101ADDF6002DD315 /* PBXTextBookmark */ = {
@@ -1793,7 +1797,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 17";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 293;
 		rType = 0;
 		vrLen = 1701;
 		vrLoc = 82;
@@ -1803,7 +1807,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 45";
 		rLen = 0;
-		rLoc = 3759;
+		rLoc = 763;
 		rType = 0;
 		vrLen = 1612;
 		vrLoc = 82;
@@ -1843,7 +1847,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 10";
 		rLen = 0;
-		rLoc = 177;
+		rLoc = 201;
 		rType = 0;
 		vrLen = 1573;
 		vrLoc = 82;
@@ -1853,7 +1857,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 10";
 		rLen = 0;
-		rLoc = 177;
+		rLoc = 201;
 		rType = 0;
 		vrLen = 1551;
 		vrLoc = 82;
@@ -1863,7 +1867,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 10";
 		rLen = 0;
-		rLoc = 177;
+		rLoc = 201;
 		rType = 0;
 		vrLen = 1551;
 		vrLoc = 82;
@@ -1873,7 +1877,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 10";
 		rLen = 0;
-		rLoc = 177;
+		rLoc = 201;
 		rType = 0;
 		vrLen = 1531;
 		vrLoc = 82;
@@ -1883,7 +1887,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 10";
 		rLen = 0;
-		rLoc = 177;
+		rLoc = 201;
 		rType = 0;
 		vrLen = 1531;
 		vrLoc = 82;
@@ -1893,7 +1897,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 24";
 		rLen = 0;
-		rLoc = 3029;
+		rLoc = 340;
 		rType = 0;
 		vrLen = 1495;
 		vrLoc = 82;
@@ -1903,7 +1907,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 36";
 		rLen = 0;
-		rLoc = 3372;
+		rLoc = 391;
 		rType = 0;
 		vrLen = 1554;
 		vrLoc = 141;
@@ -1913,7 +1917,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 21";
 		rLen = 0;
-		rLoc = 3027;
+		rLoc = 340;
 		rType = 0;
 		vrLen = 1439;
 		vrLoc = 141;
@@ -1923,7 +1927,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 22";
 		rLen = 0;
-		rLoc = 3029;
+		rLoc = 340;
 		rType = 0;
 		vrLen = 1457;
 		vrLoc = 141;
@@ -1933,7 +1937,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 22";
 		rLen = 0;
-		rLoc = 3029;
+		rLoc = 340;
 		rType = 0;
 		vrLen = 1454;
 		vrLoc = 141;
@@ -1943,7 +1947,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 24";
 		rLen = 0;
-		rLoc = 3029;
+		rLoc = 340;
 		rType = 0;
 		vrLen = 1469;
 		vrLoc = 141;
@@ -1953,7 +1957,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 43";
 		rLen = 0;
-		rLoc = 1861;
+		rLoc = 340;
 		rType = 0;
 		vrLen = 2477;
 		vrLoc = 141;
@@ -1963,7 +1967,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 48";
 		rLen = 0;
-		rLoc = 3023;
+		rLoc = 340;
 		rType = 0;
 		vrLen = 2640;
 		vrLoc = 201;
@@ -1983,7 +1987,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 59";
 		rLen = 0;
-		rLoc = 2958;
+		rLoc = 340;
 		rType = 0;
 		vrLen = 2709;
 		vrLoc = 1125;
@@ -1993,7 +1997,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 65";
 		rLen = 0;
-		rLoc = 3091;
+		rLoc = 387;
 		rType = 0;
 		vrLen = 2700;
 		vrLoc = 1125;
@@ -2003,7 +2007,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 83";
 		rLen = 0;
-		rLoc = 3706;
+		rLoc = 703;
 		rType = 0;
 		vrLen = 2008;
 		vrLoc = 2409;
@@ -2013,9 +2017,63 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
 		name = "MorseViewController.m: 78";
 		rLen = 0;
-		rLoc = 3450;
+		rLoc = 447;
 		rType = 0;
 		vrLen = 2004;
 		vrLoc = 2409;
+	};
+	660BB22B101AEBBE002DD315 /* MorseParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 741}}";
+			sepNavSelRange = "{261, 0}";
+			sepNavVisRange = "{0, 317}";
+		};
+	};
+	660BB22C101AEBBE002DD315 /* MorseParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 962}}";
+			sepNavSelRange = "{193, 0}";
+			sepNavVisRange = "{0, 2920}";
+		};
+	};
+	660BB232101AEC2A002DD315 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 660BB22B101AEBBE002DD315 /* MorseParser.h */;
+		name = "MorseParser.h: 15";
+		rLen = 0;
+		rLoc = 261;
+		rType = 0;
+		vrLen = 317;
+		vrLoc = 0;
+	};
+	660BB233101AEC2A002DD315 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 660BB22C101AEBBE002DD315 /* MorseParser.m */;
+		name = "MorseParser.m: 14";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 2920;
+		vrLoc = 0;
+	};
+	660BB234101AEC2A002DD315 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
+		name = "MorseViewController.m: 19";
+		rLen = 0;
+		rLoc = 340;
+		rType = 0;
+		vrLen = 1385;
+		vrLoc = 0;
+	};
+	660BB235101AEC2A002DD315 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MorseViewController.m */;
+		name = "MorseViewController.m: 33";
+		rLen = 0;
+		rLoc = 734;
+		rType = 0;
+		vrLen = 1415;
+		vrLoc = 0;
 	};
 }

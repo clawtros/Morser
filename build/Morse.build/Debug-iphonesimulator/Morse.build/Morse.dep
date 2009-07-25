@@ -1,7 +1,8 @@
-519a763288fd9707779bf3340ead224b 2dd60b7f71e4abfe61bb3bc56c4752fe ffffffffffffffffffffffffffffffff 272 /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app
+06312ed4bf7f0bdc4b9de8b4f97a3b6e 2dd60b7f71e4abfe61bb3bc56c4752fe ffffffffffffffffffffffffffffffff 272 /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app
 00000000000000000000000000000000 31aed37f108b82d8dadae391ef5fc31f ffffffffffffffffffffffffffffffff 102 /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app.dSYM
-592e8d013bf27ce3527bdac309772007 4329d4a3560c39a4776993a0e475428a ffffffffffffffffffffffffffffffff 27068 /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse
-47e0ab0d49aca971685630a76f5517bd bb4c783c3ec9dddd61421795ecef3998 ffffffffffffffffffffffffffffffff 48804 /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseViewController.o
+0e85d5e70c70e0386e7dc143fea03922 4329d4a3560c39a4776993a0e475428a ffffffffffffffffffffffffffffffff 27288 /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse
+47e0ab0d49cdb030685630a76f551e2d bb4c783c3ec9dddd61421795ecef3998 ffffffffffffffffffffffffffffffff 40364 /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseViewController.o
+47e0ab0d03a0382a685630a76f550cf5 104bf3eb3443bdb054502b2798821c40 ffffffffffffffffffffffffffffffff 14616 /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseParser.o
 47e0ab0d03a017af685630a76f55034e 6fd3ce35bedc8926aa2bbcd878dc3dc1 ffffffffffffffffffffffffffffffff 10892 /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseTouchView.o
 47e0ab0d49caa56b685630a76f55008a ff6c862901b48c5d96464668cc033ab8 ffffffffffffffffffffffffffffffff 39232 /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseAppDelegate.o
 47e0ab0d49cdafc9685630a76f551405 72ddbd21f01cbd190f5437e65004ae64 ffffffffffffffffffffffffffffffff 5908 /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/main.o
@@ -11,7 +12,6 @@
 000000004a6ab1bc0000000000006f33 0cf209d9b325fc8c84b99c6dd8b7166c ffffffffffffffffffffffffffffffff 3847 /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/MainWindow.nib
 00000000000000000000000000000000 d4efa2ff1e19baa5ae4b960fc28ae107 ffffffffffffffffffffffffffffffff 8 /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/PkgInfo
 00000000000000000000000000000000 d4efa2ff1e19baa5ae4b960fc28ae107 ffffffffffffffffffffffffffffffff 554 /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Info.plist
-47e0ab0d03a038dc685630a76f5502e2 104bf3eb3443bdb054502b2798821c40 ffffffffffffffffffffffffffffffff 7900 /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseParser.o
 ffffffffffffffffffffffffffffffff 1b6211238e90c40ed595a78a1682879d ffffffffffffffffffffffffffffffff 0 /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/MorseResultProcessorDelegate
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseTouchViewDelegate.o
 ffffffffffffffffffffffffffffffff cf5ef329ff5d7a9ce85cc0b4f5437b73 ffffffffffffffffffffffffffffffff 0 /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseTouchViewController.o
