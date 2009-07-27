@@ -1,24 +1,39 @@
 TMorse
 v7
 r0
-t270196226.331204
+t270345898.992971
 cCheck dependencies
 cProcessInfoPlistFile /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Info.plist Morse-Info.plist
 cCompileXIB /Users/adam/src/Morse/MainWindow.xib
 cCompileXIB /Users/adam/src/Morse/MorseViewController.xib
 cCpResource build/Debug-iphonesimulator/Morse.app/MorseResultProcessorDelegate.h Classes/MorseResultProcessorDelegate.h
-cProcessPCH /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-epgbpicpiytqpagcksoiowmaehxs/Morse_Prefix.pch.gch Morse_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCpResource build/Debug-iphonesimulator/Morse.app/dah.aiff dah.aiff
+cProcessPCH /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-bzgidiqjixqqfefsmxuehpvsjubq/Morse_Prefix.pch.gch Morse_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/main.o /Users/adam/src/Morse/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseAppDelegate.o /Users/adam/src/Morse/Classes/MorseAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseViewController.o /Users/adam/src/Morse/Classes/MorseViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseTouchView.o /Users/adam/src/Morse/Classes/MorseTouchView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseParser.o /Users/adam/src/Morse/Classes/MorseParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse normal i386
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk
 c000000004A48136E00000000000000EE
 t1246237550
 s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004A0BB0320000000000010F60
+t1242279986
+s69472
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAudioPlayer.h
+c000000004A0BB0300000000000000ED7
+t1242279984
+s3799
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004A0BB03000000000000000EB
+t1242279984
+s235
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c000000004A0BAA26000000000026EE80
@@ -35,6 +50,16 @@ c000000004A0BAB250000000000001355
 t1242278693
 s4949
 
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDate.h
+c000000004A0BAB250000000000000546
+t1242278693
+s1350
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h
+c000000004A0BAB260000000000000D1D
+t1242278694
+s3357
+
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
 c000000004A0CBEBB000000000000075E
 t1242349243
@@ -44,6 +69,23 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0
 c000000004A0CBF5F0000000001434100
 t1242349407
 s21184768
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004A5839B500000000004C0830
+t1247295925
+s4982832
+
+N/Users/adam/src/Morse/AVFoundation.framework/AVFoundation
+c000000004A6CE87B000000000001B0E0
+t1248651387
+s110816
+
+N/Users/adam/src/Morse/AVFoundation.framework/Headers/AVAudioPlayer.h
+c000000004A6CE87B0000000000000ED7
+t1248651387
+s3799
+i<Foundation/NSObject.h>
+i<Foundation/NSDate.h>
 
 N/Users/adam/src/Morse/Classes/MorseAppDelegate.h
 c000000004A6A829A00000000000001D3
@@ -59,15 +101,15 @@ i"MorseAppDelegate.h"
 i"MorseViewController.h"
 
 N/Users/adam/src/Morse/Classes/MorseParser.h
-c000000004A6AA5CB000000000000013C
-t1248503243
-s316
+c000000004A6AC7460000000000000140
+t1248511814
+s320
 i<Foundation/Foundation.h>
 
 N/Users/adam/src/Morse/Classes/MorseParser.m
-c000000004A6AA5DA00000000000002B7
-t1248503258
-s695
+c000000004A6AC72C0000000000000C90
+t1248511788
+s3216
 i"MorseParser.h"
 
 N/Users/adam/src/Morse/Classes/MorseResultProcessorDelegate
@@ -76,8 +118,8 @@ t1248499115
 s106
 
 N/Users/adam/src/Morse/Classes/MorseResultProcessorDelegate.h
-c000000004A6A9D66000000000000008C
-t1248501094
+c000000004A6C98E6000000000000008C
+t1248631014
 s140
 
 N/Users/adam/src/Morse/Classes/MorseTouchResultDelegate.h
@@ -86,17 +128,18 @@ t1248495750
 s89
 
 N/Users/adam/src/Morse/Classes/MorseTouchView.h
-c000000004A6A9DA60000000000000250
-t1248501158
-s592
+c000000004A6CEB2E00000000000002F8
+t1248652078
+s760
+i<AVFoundation/AVAudioPlayer.h>
 i<Foundation/Foundation.h>
 i"MorseViewController.h"
 i"MorseResultProcessorDelegate.h"
 
 N/Users/adam/src/Morse/Classes/MorseTouchView.m
-c000000004A6A9E38000000000000027E
-t1248501304
-s638
+c000000004A6CEF2700000000000008A2
+t1248653095
+s2210
 i"MorseTouchView.h"
 
 N/Users/adam/src/Morse/Classes/MorseTouchViewController.h
@@ -124,23 +167,24 @@ s230
 i"MorseTouchViewDelegate.h"
 
 N/Users/adam/src/Morse/Classes/MorseViewController.h
-c000000004A6AA44B000000000000026E
-t1248502859
-s622
+c000000004A6CE4160000000000000287
+t1248650262
+s647
 i<UIKit/UIKit.h>
 i"MorseTouchView.h"
 i"MorseResultProcessorDelegate.h"
 
 N/Users/adam/src/Morse/Classes/MorseViewController.m
-c000000004A6AA66D0000000000000993
-t1248503405
-s2451
+c000000004A6CB05000000000000006ED
+t1248637008
+s1773
 i"MorseViewController.h"
+i"MorseParser.h"
 
 N/Users/adam/src/Morse/MainWindow.xib
-c000000004A6A9E7B0000000000005BFB
-t1248501371
-s23547
+c000000004A6CA0760000000000006DED
+t1248632950
+s28141
 
 N/Users/adam/src/Morse/MorseViewController.xib
 c000000004A6A829A000000000000189A
@@ -163,12 +207,12 @@ t2
 s0
 
 N/Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Info.plist
-t1248503425
+t1248653097
 s554
 
 N/Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/MainWindow.nib
-t1248503425
-s2264
+t1248653097
+s3795
 
 N/Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse
 t2
@@ -179,33 +223,37 @@ t2
 s0
 
 N/Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/MorseResultProcessorDelegate.h
-t1248503425
+t1248653097
 s140
 
 N/Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/MorseViewController.nib
-t1248503425
+t1248653097
 s1151
 
 N/Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/PkgInfo
-t1248503425
+t1248653097
 s8
 
+N/Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/dah.aiff
+t1248653097
+s264654
+
 N/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/Morse.LinkFileList
-c000000004A6AA6810000000000000225
-t1248503425
+c000000004A6CEF290000000000000225
+t1248653097
 s549
 
 N/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseAppDelegate.o
-t1248503426
+t1248653098
 s39232
 
 N/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseParser.o
-t1248503426
-s7900
+t1248653098
+s14584
 
 N/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseTouchView.o
-t1248503426
-s10892
+t2
+s0
 
 N/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseTouchViewController.o
 t2
@@ -216,12 +264,37 @@ t2
 s0
 
 N/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseViewController.o
-t1248503426
-s41540
+t1248653098
+s40652
 
 N/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/main.o
-t1248503426
+t1248653098
 s5908
+
+N/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/StaticAnalyzer/normal/i386/MorseAppDelegate.plist
+t1248633087
+s275
+
+N/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/StaticAnalyzer/normal/i386/MorseParser.plist
+t1248633087
+s275
+
+N/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/StaticAnalyzer/normal/i386/MorseTouchView.plist
+t1248634455
+s275
+
+N/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/StaticAnalyzer/normal/i386/MorseViewController.plist
+t1248633087
+s275
+
+N/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/StaticAnalyzer/normal/i386/main.plist
+t1248633087
+s275
+
+N/Users/adam/src/Morse/dah.aiff
+c000000004A6CEEC300000000000409CE
+t1248652995
+s264654
 
 N/Users/adam/src/Morse/main.m
 c000000004A6A829A0000000000000167
@@ -229,8 +302,16 @@ t1248494234
 s359
 i<UIKit/UIKit.h>
 
+N/var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-aufbjwicisucbcdwprtrrcgndbwt/Morse_Prefix.pch.pth
+t1248632741
+s1700052
+
+N/var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-bzgidiqjixqqfefsmxuehpvsjubq/Morse_Prefix.pch.gch
+t1248653098
+s12957072
+
 N/var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-epgbpicpiytqpagcksoiowmaehxs/Morse_Prefix.pch.gch
-t1248503426
+t1248632911
 s12957072
 
 NMorse-Info.plist
@@ -238,13 +319,57 @@ c000000004A6A829A000000000000038D
 t1248494234
 s909
 
+CAnalyze /Users/adam/src/Morse/Classes/MorseAppDelegate.m
+s270325887.632000
+e270325887.685250
+r1
+xAnalyze
+x/Users/adam/src/Morse/Classes/MorseAppDelegate.m
+lSLF07#2@56"Analyze /Users/adam/src/Morse/Classes/MorseAppDelegate.m270325887#270325887#0(0"0(0#0#48"/Users/adam/src/Morse/Classes/MorseAppDelegate.m4301066776#1671"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -include /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-aufbjwicisucbcdwprtrrcgndbwt/Morse_Prefix.pch --analyze /Users/adam/src/Morse/Classes/MorseAppDelegate.m -o /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/StaticAnalyzer/normal/i386/MorseAppDelegate.plist0#
+
+CAnalyze /Users/adam/src/Morse/Classes/MorseParser.m
+s270325887.704566
+e270325887.739063
+r1
+xAnalyze
+x/Users/adam/src/Morse/Classes/MorseParser.m
+lSLF07#2@51"Analyze /Users/adam/src/Morse/Classes/MorseParser.m270325887#270325887#0(0"0(0#0#43"/Users/adam/src/Morse/Classes/MorseParser.m4301066776#1661"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -include /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-aufbjwicisucbcdwprtrrcgndbwt/Morse_Prefix.pch --analyze /Users/adam/src/Morse/Classes/MorseParser.m -o /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/StaticAnalyzer/normal/i386/MorseParser.plist0#
+
+CAnalyze /Users/adam/src/Morse/Classes/MorseTouchView.m
+s270327255.008166
+e270327255.075703
+r1
+xAnalyze
+x/Users/adam/src/Morse/Classes/MorseTouchView.m
+lSLF07#2@54"Analyze /Users/adam/src/Morse/Classes/MorseTouchView.m270327255#270327255#0(0"0(0#0#46"/Users/adam/src/Morse/Classes/MorseTouchView.m4301066776#1667"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -include /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-aufbjwicisucbcdwprtrrcgndbwt/Morse_Prefix.pch --analyze /Users/adam/src/Morse/Classes/MorseTouchView.m -o /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/StaticAnalyzer/normal/i386/MorseTouchView.plist0#
+
+CAnalyze /Users/adam/src/Morse/Classes/MorseViewController.m
+s270325887.666683
+e270325887.704440
+r1
+xAnalyze
+x/Users/adam/src/Morse/Classes/MorseViewController.m
+o/Users/adam/src/Morse/Classes/MorseViewController.m:43:2: warning: UIView  may not respond to 'setResultDelegate:'
+o         [morseTouchView setResultDelegate:self];
+o         ^
+o1 diagnostic generated.
+lSLF07#2@59"Analyze /Users/adam/src/Morse/Classes/MorseViewController.m270325887#270325887#0(200"/Users/adam/src/Morse/Classes/MorseViewController.m:43:2: warning: UIView  may not respond to 'setResultDelegate:'         [morseTouchView setResultDelegate:self];         ^1 diagnostic generated.0(0#0#51"/Users/adam/src/Morse/Classes/MorseViewController.m4301066776#1677"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -include /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-aufbjwicisucbcdwprtrrcgndbwt/Morse_Prefix.pch --analyze /Users/adam/src/Morse/Classes/MorseViewController.m -o /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/StaticAnalyzer/normal/i386/MorseViewController.plist0#
+
+CAnalyze /Users/adam/src/Morse/main.m
+s270325887.624025
+e270325887.666590
+r1
+xAnalyze
+x/Users/adam/src/Morse/main.m
+lSLF07#2@36"Analyze /Users/adam/src/Morse/main.m270325887#270325887#0(0"0(0#0#28"/Users/adam/src/Morse/main.m4301066776#1639"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -include /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-aufbjwicisucbcdwprtrrcgndbwt/Morse_Prefix.pch --analyze /Users/adam/src/Morse/main.m -o /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/StaticAnalyzer/normal/i386/main.plist0#
+
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies270196225#270196225#0(0"0(0#1#0"4301066776#0"0#
+lSLF07#2@18"Check dependencies270345896#270345897#0(0"0(0#1#0"4301066776#0"0#
 
 CCompileC build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseAppDelegate.o /Users/adam/src/Morse/Classes/MorseAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s270196226.083536
-e270196226.170428
+s270345898.778483
+e270345898.860216
 r1
 xCompileC
 xbuild/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseAppDelegate.o
@@ -253,11 +378,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/adam/src/Morse/Classes/MorseAppDelegate.m270196226#270196226#0(0"0(0#0#48"/Users/adam/src/Morse/Classes/MorseAppDelegate.m4301066776#1662"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -include /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-epgbpicpiytqpagcksoiowmaehxs/Morse_Prefix.pch -c /Users/adam/src/Morse/Classes/MorseAppDelegate.m -o /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseAppDelegate.o0#
+lSLF07#2@56"Compile /Users/adam/src/Morse/Classes/MorseAppDelegate.m270345898#270345898#0(0"0(0#0#48"/Users/adam/src/Morse/Classes/MorseAppDelegate.m4301066776#1686"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -F/Users/adam/src/Morse -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -include /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-bzgidiqjixqqfefsmxuehpvsjubq/Morse_Prefix.pch -c /Users/adam/src/Morse/Classes/MorseAppDelegate.m -o /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseAppDelegate.o0#
 
 CCompileC build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseParser.o /Users/adam/src/Morse/Classes/MorseParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s270196226.247280
-e270196226.310640
+s270345898.923312
+e270345898.992878
 r1
 xCompileC
 xbuild/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseParser.o
@@ -266,15 +391,12 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/adam/src/Morse/Classes/MorseParser.m: In function '+[MorseParser parseString:]':
-o/Users/adam/src/Morse/Classes/MorseParser.m:17: warning: implicit declaration of function 'parseLetter'
-o/Users/adam/src/Morse/Classes/MorseParser.m:17: warning: passing argument 1 of 'stringByAppendingString:' makes pointer from integer without a cast
-lSLF07#2@51"Compile /Users/adam/src/Morse/Classes/MorseParser.m270196226#270196226#0(340"/Users/adam/src/Morse/Classes/MorseParser.m: In function '+[MorseParser parseString:]':/Users/adam/src/Morse/Classes/MorseParser.m:17: warning: implicit declaration of function 'parseLetter'/Users/adam/src/Morse/Classes/MorseParser.m:17: warning: passing argument 1 of 'stringByAppendingString:' makes pointer from integer without a cast2(22@46"Implicit declaration of function 'parseLetter'270196226#88#104#0(6@43"/Users/adam/src/Morse/Classes/MorseParser.m270196058#17#0#17#0#36"implicit declaration of function '*'0(22@90"Passing argument 1 of 'stringByAppendingString:' makes pointer from integer without a cast270196226#192#148#0(6@43"/Users/adam/src/Morse/Classes/MorseParser.m270196058#17#0#17#0#0"0(0#0#43"/Users/adam/src/Morse/Classes/MorseParser.m4301066776#1652"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -include /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-epgbpicpiytqpagcksoiowmaehxs/Morse_Prefix.pch -c /Users/adam/src/Morse/Classes/MorseParser.m -o /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseParser.o0#
+lSLF07#2@51"Compile /Users/adam/src/Morse/Classes/MorseParser.m270345898#270345898#0(0"0(0#0#43"/Users/adam/src/Morse/Classes/MorseParser.m4301066776#1676"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -F/Users/adam/src/Morse -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -include /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-bzgidiqjixqqfefsmxuehpvsjubq/Morse_Prefix.pch -c /Users/adam/src/Morse/Classes/MorseParser.m -o /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseParser.o0#
 
 CCompileC build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseTouchView.o /Users/adam/src/Morse/Classes/MorseTouchView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s270196226.170530
-e270196226.247181
-r1
+s270345898.860330
+e270345898.923208
+r0
 xCompileC
 xbuild/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseTouchView.o
 x/Users/adam/src/Morse/Classes/MorseTouchView.m
@@ -282,7 +404,18 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/adam/src/Morse/Classes/MorseTouchView.m270196226#270196226#0(0"0(0#0#46"/Users/adam/src/Morse/Classes/MorseTouchView.m4301066776#1658"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -include /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-epgbpicpiytqpagcksoiowmaehxs/Morse_Prefix.pch -c /Users/adam/src/Morse/Classes/MorseTouchView.m -o /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseTouchView.o0#
+o/Users/adam/src/Morse/Classes/MorseTouchView.m: In function '-[MorseTouchView initWithCoder:]':
+o/Users/adam/src/Morse/Classes/MorseTouchView.m:23: warning: class 'MorseTouchView' does not implement the 'AVAudioPlayerDelegate' protocol
+o/Users/adam/src/Morse/Classes/MorseTouchView.m:24: error: expected expression before 'BOOL'
+o/Users/adam/src/Morse/Classes/MorseTouchView.m:24: error: called object 'self->soundEnabled' is not a function
+o/Users/adam/src/Morse/Classes/MorseTouchView.m:24: error: expected ':' before numeric constant
+o/Users/adam/src/Morse/Classes/MorseTouchView.m: At top level:
+o/Users/adam/src/Morse/Classes/MorseTouchView.m:80: warning: property '_player' requires method '-_player' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/adam/src/Morse/Classes/MorseTouchView.m:80: warning: property '_player' requires the method 'set_player:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o{standard input}:51:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:51:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+lSLF07#2@54"Compile /Users/adam/src/Morse/Classes/MorseTouchView.m270345898#270345898#0(1266"/Users/adam/src/Morse/Classes/MorseTouchView.m: In function '-[MorseTouchView initWithCoder:]':/Users/adam/src/Morse/Classes/MorseTouchView.m:23: warning: class 'MorseTouchView' does not implement the 'AVAudioPlayerDelegate' protocol/Users/adam/src/Morse/Classes/MorseTouchView.m:24: error: expected expression before 'BOOL'/Users/adam/src/Morse/Classes/MorseTouchView.m:24: error: called object 'self->soundEnabled' is not a function/Users/adam/src/Morse/Classes/MorseTouchView.m:24: error: expected ':' before numeric constant/Users/adam/src/Morse/Classes/MorseTouchView.m: At top level:/Users/adam/src/Morse/Classes/MorseTouchView.m:80: warning: property '_player' requires method '-_player' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/adam/src/Morse/Classes/MorseTouchView.m:80: warning: property '_player' requires the method 'set_player:' to be defined - use @synthesize, @dynamic or provide a method implementation{standard input}:51:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:51:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_07(22@78"Class 'MorseTouchView' does not implement the 'AVAudioPlayerDelegate' protocol270345898#96#139#0(6@46"/Users/adam/src/Morse/Classes/MorseTouchView.m270345895#23#0#23#0#45"class '*' does not implement the '*' protocol0(4@33"Expected expression before 'BOOL'270345898#235#92#0(6@46"/Users/adam/src/Morse/Classes/MorseTouchView.m270345895#24#0#24#0#19"expected * before *0(4@52"Called object 'self->soundEnabled' is not a function270345898#327#111#0(6@46"/Users/adam/src/Morse/Classes/MorseTouchView.m270345895#24#0#24#0#35"called object '*' is not a function0(4@36"Expected ':' before numeric constant270345898#438#95#0(6@46"/Users/adam/src/Morse/Classes/MorseTouchView.m270345895#24#0#24#0#19"expected * before *0(23@13"At top level:270345898#533#62#0(6@46"/Users/adam/src/Morse/Classes/MorseTouchView.m270345895#0#0#0#0#0"0(22@122"Property '_player' requires method '-_player' to be defined - use @synthesize, @dynamic or provide a method implementation270345898#595#183#0(6@46"/Users/adam/src/Morse/Classes/MorseTouchView.m270345895#80#0#80#0#0"0(22@129"Property '_player' requires the method 'set_player:' to be defined - use @synthesize, @dynamic or provide a method implementation270345898#778#190#0(6@46"/Users/adam/src/Morse/Classes/MorseTouchView.m270345895#80#0#80#0#0"0(0#0#46"/Users/adam/src/Morse/Classes/MorseTouchView.m4301066776#1682"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -F/Users/adam/src/Morse -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -include /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-bzgidiqjixqqfefsmxuehpvsjubq/Morse_Prefix.pch -c /Users/adam/src/Morse/Classes/MorseTouchView.m -o /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseTouchView.o1#
 
 CCompileC build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseTouchViewController.o /Users/adam/src/Morse/Classes/MorseTouchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -291,8 +424,8 @@ CCompileC build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i38
 r0
 
 CCompileC build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseViewController.o /Users/adam/src/Morse/Classes/MorseViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s270196226.139544
-e270196226.256889
+s270345898.838579
+e270345898.950744
 r1
 xCompileC
 xbuild/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseViewController.o
@@ -301,22 +434,16 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/adam/src/Morse/Classes/MorseViewController.m: In function '-[MorseViewController parseString:]':
-o/Users/adam/src/Morse/Classes/MorseViewController.m:24: warning: implicit declaration of function 'parseLetter'
-o/Users/adam/src/Morse/Classes/MorseViewController.m:24: warning: passing argument 1 of 'stringByAppendingString:' makes pointer from integer without a cast
-o/Users/adam/src/Morse/Classes/MorseViewController.m: In function '-[MorseViewController touchDurationReceived:timeFromLastTap:]':
-o/Users/adam/src/Morse/Classes/MorseViewController.m:45: warning: implicit declaration of function 'parseString'
-o/Users/adam/src/Morse/Classes/MorseViewController.m:45: warning: passing argument 1 of 'setText:' makes pointer from integer without a cast
 o/Users/adam/src/Morse/Classes/MorseViewController.m: In function '-[MorseViewController viewDidLoad]':
-o/Users/adam/src/Morse/Classes/MorseViewController.m:67: warning: 'UIView' may not respond to '-setResultDelegate:'
-o/Users/adam/src/Morse/Classes/MorseViewController.m:67: warning: (Messages without a matching method signature
-o/Users/adam/src/Morse/Classes/MorseViewController.m:67: warning: will be assumed to return 'id' and accept
-o/Users/adam/src/Morse/Classes/MorseViewController.m:67: warning: '...' as arguments.)
-lSLF07#2@59"Compile /Users/adam/src/Morse/Classes/MorseViewController.m270196226#270196226#0(1276"/Users/adam/src/Morse/Classes/MorseViewController.m: In function '-[MorseViewController parseString:]':/Users/adam/src/Morse/Classes/MorseViewController.m:24: warning: implicit declaration of function 'parseLetter'/Users/adam/src/Morse/Classes/MorseViewController.m:24: warning: passing argument 1 of 'stringByAppendingString:' makes pointer from integer without a cast/Users/adam/src/Morse/Classes/MorseViewController.m: In function '-[MorseViewController touchDurationReceived:timeFromLastTap:]':/Users/adam/src/Morse/Classes/MorseViewController.m:45: warning: implicit declaration of function 'parseString'/Users/adam/src/Morse/Classes/MorseViewController.m:45: warning: passing argument 1 of 'setText:' makes pointer from integer without a cast/Users/adam/src/Morse/Classes/MorseViewController.m: In function '-[MorseViewController viewDidLoad]':/Users/adam/src/Morse/Classes/MorseViewController.m:67: warning: 'UIView' may not respond to '-setResultDelegate:'/Users/adam/src/Morse/Classes/MorseViewController.m:67: warning: (Messages without a matching method signature/Users/adam/src/Morse/Classes/MorseViewController.m:67: warning: will be assumed to return 'id' and accept/Users/adam/src/Morse/Classes/MorseViewController.m:67: warning: '...' as arguments.)6(22@46"Implicit declaration of function 'parseLetter'270196226#104#112#0(6@51"/Users/adam/src/Morse/Classes/MorseViewController.m270196205#24#0#24#0#36"implicit declaration of function '*'0(22@90"Passing argument 1 of 'stringByAppendingString:' makes pointer from integer without a cast270196226#216#156#0(6@51"/Users/adam/src/Morse/Classes/MorseViewController.m270196205#24#0#24#0#0"0(22@46"Implicit declaration of function 'parseString'270196226#502#112#0(6@51"/Users/adam/src/Morse/Classes/MorseViewController.m270196205#45#0#45#0#36"implicit declaration of function '*'0(22@74"Passing argument 1 of 'setText:' makes pointer from integer without a cast270196226#614#140#0(6@51"/Users/adam/src/Morse/Classes/MorseViewController.m270196205#45#0#45#0#0"0(22@49"'UIView' may not respond to '-setResultDelegate:'270196226#857#115#0(6@51"/Users/adam/src/Morse/Classes/MorseViewController.m270196205#67#0#67#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)270196226#972#111#0(6@51"/Users/adam/src/Morse/Classes/MorseViewController.m270196205#67#0#67#0#0"0(0#0#51"/Users/adam/src/Morse/Classes/MorseViewController.m4301066776#1668"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -include /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-epgbpicpiytqpagcksoiowmaehxs/Morse_Prefix.pch -c /Users/adam/src/Morse/Classes/MorseViewController.m -o /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseViewController.o0#
+o/Users/adam/src/Morse/Classes/MorseViewController.m:46: warning: 'UIView' may not respond to '-setResultDelegate:'
+o/Users/adam/src/Morse/Classes/MorseViewController.m:46: warning: (Messages without a matching method signature
+o/Users/adam/src/Morse/Classes/MorseViewController.m:46: warning: will be assumed to return 'id' and accept
+o/Users/adam/src/Morse/Classes/MorseViewController.m:46: warning: '...' as arguments.)
+lSLF07#2@59"Compile /Users/adam/src/Morse/Classes/MorseViewController.m270345898#270345898#0(522"/Users/adam/src/Morse/Classes/MorseViewController.m: In function '-[MorseViewController viewDidLoad]':/Users/adam/src/Morse/Classes/MorseViewController.m:46: warning: 'UIView' may not respond to '-setResultDelegate:'/Users/adam/src/Morse/Classes/MorseViewController.m:46: warning: (Messages without a matching method signature/Users/adam/src/Morse/Classes/MorseViewController.m:46: warning: will be assumed to return 'id' and accept/Users/adam/src/Morse/Classes/MorseViewController.m:46: warning: '...' as arguments.)2(22@49"'UIView' may not respond to '-setResultDelegate:'270345898#103#115#0(6@51"/Users/adam/src/Morse/Classes/MorseViewController.m270329808#46#0#46#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)270345898#218#111#0(6@51"/Users/adam/src/Morse/Classes/MorseViewController.m270329808#46#0#46#0#0"0(0#0#51"/Users/adam/src/Morse/Classes/MorseViewController.m4301066776#1692"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -F/Users/adam/src/Morse -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -include /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-bzgidiqjixqqfefsmxuehpvsjubq/Morse_Prefix.pch -c /Users/adam/src/Morse/Classes/MorseViewController.m -o /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/MorseViewController.o0#
 
 CCompileC build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/main.o /Users/adam/src/Morse/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s270196226.081888
-e270196226.139418
+s270345898.777395
+e270345898.838464
 r1
 xCompileC
 xbuild/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/main.o
@@ -325,77 +452,102 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@36"Compile /Users/adam/src/Morse/main.m270196226#270196226#0(0"0(0#0#28"/Users/adam/src/Morse/main.m4301066776#1630"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -include /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-epgbpicpiytqpagcksoiowmaehxs/Morse_Prefix.pch -c /Users/adam/src/Morse/main.m -o /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/main.o0#
+lSLF07#2@36"Compile /Users/adam/src/Morse/main.m270345898#270345898#0(0"0(0#0#28"/Users/adam/src/Morse/main.m4301066776#1654"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -F/Users/adam/src/Morse -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -include /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-bzgidiqjixqqfefsmxuehpvsjubq/Morse_Prefix.pch -c /Users/adam/src/Morse/main.m -o /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/adam/src/Morse/MainWindow.xib
-s270196225.063384
-e270196225.425751
+s270345897.021591
+e270345897.953694
 r1
 xCompileXIB
 x/Users/adam/src/Morse/MainWindow.xib
-o/* com.apple.ibtool.document.warnings */
-o/Users/adam/src/Morse/MainWindow.xib:10: warning: 'Morse View Controller' has both its 'NIB Name' property set and its 'view' outlet connected. This configuration is not supported.
-lSLF07#2@25"CompileXIB MainWindow.xib270196225#270196225#0(222"/* com.apple.ibtool.document.warnings *//Users/adam/src/Morse/MainWindow.xib:10: warning: 'Morse View Controller' has both its 'NIB Name' property set and its 'view' outlet connected. This configuration is not supported.1(22@130"'Morse View Controller' has both its 'NIB Name' property set and its 'view' outlet connected. This configuration is not supported.270196225#18446744073709551615#0#0(6@36"/Users/adam/src/Morse/MainWindow.xib270194171#10#0#10#0#0"0(0#0#36"/Users/adam/src/Morse/MainWindow.xib4301066776#378"    cd /Users/adam/src/Morse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/MainWindow.nib /Users/adam/src/Morse/MainWindow.xib0#
+lSLF07#2@25"CompileXIB MainWindow.xib270345897#270345897#0(0"0(0#0#36"/Users/adam/src/Morse/MainWindow.xib4301066776#378"    cd /Users/adam/src/Morse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/MainWindow.nib /Users/adam/src/Morse/MainWindow.xib0#
 
 CCompileXIB /Users/adam/src/Morse/MorseViewController.xib
-s270196225.064398
-e270196225.365666
+s270345897.022424
+e270345897.723259
 r1
 xCompileXIB
 x/Users/adam/src/Morse/MorseViewController.xib
-lSLF07#2@34"CompileXIB MorseViewController.xib270196225#270196225#0(0"0(0#0#45"/Users/adam/src/Morse/MorseViewController.xib4301066776#396"    cd /Users/adam/src/Morse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/MorseViewController.nib /Users/adam/src/Morse/MorseViewController.xib0#
+lSLF07#2@34"CompileXIB MorseViewController.xib270345897#270345897#0(0"0(0#0#45"/Users/adam/src/Morse/MorseViewController.xib4301066776#396"    cd /Users/adam/src/Morse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/MorseViewController.nib /Users/adam/src/Morse/MorseViewController.xib0#
 
 CCpResource build/Debug-iphonesimulator/Morse.app/MorseResultProcessorDelegate Classes/MorseResultProcessorDelegate
 r0
 
 CCpResource build/Debug-iphonesimulator/Morse.app/MorseResultProcessorDelegate.h Classes/MorseResultProcessorDelegate.h
-s270196225.365766
-e270196225.371218
+s270345897.723359
+e270345897.865854
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/Morse.app/MorseResultProcessorDelegate.h
 xClasses/MorseResultProcessorDelegate.h
-lSLF07#2@43"Copy Classes/MorseResultProcessorDelegate.h270196225#270196225#0(0"0(0#0#60"/Users/adam/src/Morse/Classes/MorseResultProcessorDelegate.h4301066776#429"    cd /Users/adam/src/Morse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/adam/src/Morse/Classes/MorseResultProcessorDelegate.h /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app0#
+lSLF07#2@43"Copy Classes/MorseResultProcessorDelegate.h270345897#270345897#0(0"0(0#0#60"/Users/adam/src/Morse/Classes/MorseResultProcessorDelegate.h4301066776#429"    cd /Users/adam/src/Morse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/adam/src/Morse/Classes/MorseResultProcessorDelegate.h /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app0#
+
+CCpResource build/Debug-iphonesimulator/Morse.app/dah.aiff dah.aiff
+s270345897.724069
+e270345897.875877
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Morse.app/dah.aiff
+xdah.aiff
+lSLF07#2@13"Copy dah.aiff270345897#270345897#0(0"0(0#0#30"/Users/adam/src/Morse/dah.aiff4301066776#399"    cd /Users/adam/src/Morse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/adam/src/Morse/dah.aiff /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app0#
 
 CGenerateDSYMFile /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app.dSYM /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse
-s270195134.506928
-e270195134.526450
+s270345737.353237
+e270345737.369330
 r1
 xGenerateDSYMFile
 x/Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app.dSYM
 x/Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse
-lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/Morse.app.dSYM build/Debug-iphonesimulator/Morse.app/Morse270195134#270195134#0(0"0(0#0#65"/Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse4301066776#326"    cd /Users/adam/src/Morse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse -o /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app.dSYM0#
+lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/Morse.app.dSYM build/Debug-iphonesimulator/Morse.app/Morse270345737#270345737#0(0"0(0#0#65"/Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse4301066776#326"    cd /Users/adam/src/Morse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse -o /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app.dSYM0#
 
 CLd /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse normal i386
-s270196226.310733
-e270196226.331123
-r0
+s270345737.330250
+e270345737.353133
+r1
 xLd
 x/Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse
 xnormal
 xi386
-oUndefined symbols:
-o  "_parseLetter", referenced from:
-o      -[MorseViewController parseString:] in MorseViewController.o
-o      +[MorseParser parseString:] in MorseParser.o
-o  "_parseString", referenced from:
-o      -[MorseViewController touchDurationReceived:timeFromLastTap:] in MorseViewController.o
-old: symbol(s) not found
-ocollect2: ld returned 1 exit status
-lSLF07#2@70"Link /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse270196226#270196226#0(360"Undefined symbols:  "_parseLetter", referenced from:      -[MorseViewController parseString:] in MorseViewController.o      +[MorseParser parseString:] in MorseParser.o  "_parseString", referenced from:      -[MorseViewController touchDurationReceived:timeFromLastTap:] in MorseViewController.old: symbol(s) not foundcollect2: ld returned 1 exit status7(4@32""_parseLetter", referenced from:270196226#19#35#0(6@0"270196226#0#0#0#0#0"0(13@60"-[MorseViewController parseString:] in MorseViewController.o270196226#54#67#0(6@0"270196226#0#0#0#0#0"0(13@44"+[MorseParser parseString:] in MorseParser.o270196226#121#51#0(6@0"270196226#0#0#0#0#0"0(4@32""_parseString", referenced from:270196226#172#35#0(6@0"270196226#0#0#0#0#0"0(13@86"-[MorseViewController touchDurationReceived:timeFromLastTap:] in MorseViewController.o270196226#207#93#0(6@0"270196226#0#0#0#0#0"0(13@19"Symbol(s) not found270196226#300#24#0(6@0"270196226#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status270196226#324#36#0(6@0"270196226#0#0#0#0#0"0(0#0#0"4301066776#767"    cd /Users/adam/src/Morse    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -L/Users/adam/src/Morse/build/Debug-iphonesimulator -F/Users/adam/src/Morse/build/Debug-iphonesimulator -filelist /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/Morse.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse1#
+lSLF07#2@70"Link /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse270345737#270345737#0(0"0(0#0#0"4301066776#839"    cd /Users/adam/src/Morse    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -L/Users/adam/src/Morse/build/Debug-iphonesimulator -F/Users/adam/src/Morse/build/Debug-iphonesimulator -F/Users/adam/src/Morse -filelist /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Objects-normal/i386/Morse.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework AVFoundation -o /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Morse0#
 
 CProcessInfoPlistFile /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Info.plist Morse-Info.plist
-s270196225.052605
-e270196225.063286
+s270345897.016593
+e270345897.021503
 r1
 xProcessInfoPlistFile
 x/Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Info.plist
 xMorse-Info.plist
-lSLF07#2@24"Process Morse-Info.plist270196225#270196225#0(0"0(0#0#38"/Users/adam/src/Morse/Morse-Info.plist4301066776#422"    cd /Users/adam/src/Morse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Morse-Info.plist -genpkginfo /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Info.plist0#
+lSLF07#2@24"Process Morse-Info.plist270345897#270345897#0(0"0(0#0#38"/Users/adam/src/Morse/Morse-Info.plist4301066776#422"    cd /Users/adam/src/Morse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Morse-Info.plist -genpkginfo /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app/Info.plist0#
+
+CProcessPCH /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-aufbjwicisucbcdwprtrrcgndbwt/Morse_Prefix.pch.pth Morse_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s270325539.983304
+e270325541.172315
+r1
+xProcessPCH
+x/var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-aufbjwicisucbcdwprtrrcgndbwt/Morse_Prefix.pch.pth
+xMorse_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@27"Precompile Morse_Prefix.pch270325539#270325541#0(0"0(0#0#38"/Users/adam/src/Morse/Morse_Prefix.pch4301066776#1532"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -c /Users/adam/src/Morse/Morse_Prefix.pch -o /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-aufbjwicisucbcdwprtrrcgndbwt/Morse_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-bzgidiqjixqqfefsmxuehpvsjubq/Morse_Prefix.pch.gch Morse_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s270345897.953825
+e270345898.777235
+r1
+xProcessPCH
+x/var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-bzgidiqjixqqfefsmxuehpvsjubq/Morse_Prefix.pch.gch
+xMorse_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile Morse_Prefix.pch270345897#270345898#0(0"0(0#0#38"/Users/adam/src/Morse/Morse_Prefix.pch4301066776#1565"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -F/Users/adam/src/Morse -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -c /Users/adam/src/Morse/Morse_Prefix.pch -o /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-bzgidiqjixqqfefsmxuehpvsjubq/Morse_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-epgbpicpiytqpagcksoiowmaehxs/Morse_Prefix.pch.gch Morse_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s270196225.425883
-e270196226.081753
+s270325711.208441
+e270325711.952267
 r1
 xProcessPCH
 x/var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-epgbpicpiytqpagcksoiowmaehxs/Morse_Prefix.pch.gch
@@ -404,13 +556,13 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@27"Precompile Morse_Prefix.pch270196225#270196226#0(0"0(0#0#38"/Users/adam/src/Morse/Morse_Prefix.pch4301066776#1541"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -c /Users/adam/src/Morse/Morse_Prefix.pch -o /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-epgbpicpiytqpagcksoiowmaehxs/Morse_Prefix.pch.gch0#
+lSLF07#2@27"Precompile Morse_Prefix.pch270325711#270325711#0(0"0(0#0#38"/Users/adam/src/Morse/Morse_Prefix.pch4301066776#1541"    cd /Users/adam/src/Morse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-generated-files.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-own-target-headers.hmap -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-all-target-headers.hmap -iquote /Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/Morse-project-headers.hmap -F/Users/adam/src/Morse/build/Debug-iphonesimulator -I/Users/adam/src/Morse/build/Debug-iphonesimulator/include -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources/i386 -I/Users/adam/src/Morse/build/Morse.build/Debug-iphonesimulator/Morse.build/DerivedSources -c /Users/adam/src/Morse/Morse_Prefix.pch -o /var/folders/yQ/yQEf0I7zHICDRNFwzLiWH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Morse_Prefix-epgbpicpiytqpagcksoiowmaehxs/Morse_Prefix.pch.gch0#
 
 CTouch /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app
-s270195134.526792
-e270195134.530339
+s270345797.913999
+e270345797.928522
 r1
 xTouch
 x/Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app
-lSLF07#2@65"Touch /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app270195134#270195134#0(0"0(0#0#0"4301066776#242"    cd /Users/adam/src/Morse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app0#
+lSLF07#2@65"Touch /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app270345797#270345797#0(0"0(0#0#0"4301066776#242"    cd /Users/adam/src/Morse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adam/src/Morse/build/Debug-iphonesimulator/Morse.app0#
 

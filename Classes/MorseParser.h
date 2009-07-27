@@ -12,6 +12,6 @@
 @interface MorseParser : NSObject {
 
 }
-+(NSString*)parseLetter:(NSString*)letterToParse;
++(NSString*)parseLetterIMF:(NSString*)letterToParse;
 +(NSString*)parseString:(NSString*)stringToParse;
 @end

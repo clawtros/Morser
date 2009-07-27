@@ -9,7 +9,6 @@
 #import "MorseViewController.h"
 #import "MorseParser.h"
 
-#define TOUCH_UNIT 0.3
 
 @implementation MorseViewController
 
@@ -21,14 +20,17 @@
 -(IBAction)resetText {
 	resultView.text = @"";
 }
-
-
-
-
+-(IBAction)toggleSound:(id)sender {
+	[(MorseTouchView*)morseTouchView toggleSound];
+}
 -(void)touchDurationReceived:(double)touchDuration timeFromLastTap:(double)pauseTime {
 	resultView.text = [NSString stringWithFormat:@"%@%@%@", 
 					   resultView.text, 
-					   pauseTime > TOUCH_UNIT * 7 ? @"/=/" : pauseTime > TOUCH_UNIT * 3 ? @"/" : @"",
+					   // UNIT * 7 is a space
+					   pauseTime > TOUCH_UNIT * 7 && ![resultView.text isEqualToString:@""] ? @"/=/" : 
+					   // UNIT * 3 is a word break
+						pauseTime > TOUCH_UNIT * 3 && ![resultView.text isEqualToString:@""] ? @"/" : @"",
+					   // Anything less is a letter segment
 					   touchDuration > TOUCH_UNIT ? @"-" : @"."];
 	parsedView.text = [MorseParser parseString:resultView.text];
 }
@@ -41,29 +43,11 @@
 	return self;
 }
 
-/*
- // Implement loadView to create a view hierarchy programmatically, without using a nib.
- - (void)loadView {
- }
- */
-
-
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	[morseTouchView setResultDelegate:self];
-	NSLog(@"%@",parsedView);
+	[(MorseTouchView*)morseTouchView setResultDelegate:self];
 }
 
-
-/*
- // Override to allow orientations other than the default portrait orientation.
- - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
- // Return YES for supported orientations
- return (interfaceOrientation == UIInterfaceOrientationPortrait);
- }
- */
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
@@ -79,7 +63,9 @@
 
 
 - (void)dealloc {
+	[morseTouchView release];
     [resultView release];
+	[parsedView release];
 	[super dealloc];
 }
 

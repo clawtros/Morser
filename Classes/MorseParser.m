@@ -11,8 +11,7 @@
 
 @implementation MorseParser
 
-+(NSString*)parseLetter:(NSString *)letterToParse {
-	NSLog(letterToParse);
++(NSString*)parseLetterIMF:(NSString *)letterToParse {
 	if ([letterToParse isEqualToString:@".-"]) { return @"A"; }
 	else if ([letterToParse isEqualToString:@"-..."]) { return @"B"; }
 	else if ([letterToParse isEqualToString:@"-.-."]) { return @"C"; }
@@ -59,7 +58,7 @@
 	NSArray *letters = [stringToParse componentsSeparatedByString:@"/"];
 	NSString *resultString = @"";
 	for (NSString* letter in letters) {
-		resultString = [resultString stringByAppendingString:[MorseParser parseLetter:letter]];
+		resultString = [resultString stringByAppendingString:[MorseParser parseLetterIMF:letter]];
 	}
 	return resultString;
 }

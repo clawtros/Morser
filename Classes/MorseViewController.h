@@ -14,10 +14,11 @@
 	IBOutlet UIView *morseTouchView;
 	IBOutlet UITextView *resultView;
 	IBOutlet UITextView *parsedView;
+	
 }
 
 -(IBAction)resetText;
-
+-(IBAction)toggleSound:(id)sender;
 @property (nonatomic, retain) IBOutlet UITextView *resultView;
 @property (nonatomic, retain) IBOutlet UITextView *parsedView;
 @property (nonatomic, retain) IBOutlet UIView *morseTouchView;
