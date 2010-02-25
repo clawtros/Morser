@@ -9,7 +9,7 @@
 	};
 	1D3623250D0F684500981E51 /* MorseAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 741}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 745}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 608}";
 		};
@@ -22,22 +22,23 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* MorseViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 777}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 745}}";
 			sepNavSelRange = "{484, 0}";
 			sepNavVisRange = "{0, 681}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* MorseViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {869, 845}}";
-			sepNavSelRange = "{364, 0}";
-			sepNavVisRange = "{144, 1147}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 949}}";
+			sepNavSelRange = "{1213, 0}";
+			sepNavVisRange = "{0, 1645}";
 			sepNavWindowFrame = "{{6, 0}, {1434, 874}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = 660BB03C101ABA1B002DD315 /* Morse */;
+		activeSDKPreference = iphonesimulator3.1.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Morse */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Morse */,
@@ -69,8 +70,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 270417411;
-			PBXWorkspaceStateSaveDate = 270417411;
+			PBXPerProjectTemplateStateSaveDate = 288827977;
+			PBXWorkspaceStateSaveDate = 288827977;
 		};
 		perUserProjectItems = {
 			660BB07C101AC1FD002DD315 = 660BB07C101AC1FD002DD315 /* PBXTextBookmark */;
@@ -78,16 +79,14 @@
 			660BB1CE101ADDF6002DD315 = 660BB1CE101ADDF6002DD315 /* PBXTextBookmark */;
 			660BB3EA101D1BA2002DD315 = 660BB3EA101D1BA2002DD315 /* PBXTextBookmark */;
 			660BB3EC101D1BA2002DD315 = 660BB3EC101D1BA2002DD315 /* PBXTextBookmark */;
-			660BB3EE101D1BA2002DD315 = 660BB3EE101D1BA2002DD315 /* PBXTextBookmark */;
 			660BB3F0101D1BA2002DD315 = 660BB3F0101D1BA2002DD315 /* PBXTextBookmark */;
 			660BB49B101D348A002DD315 = 660BB49B101D348A002DD315 /* PBXTextBookmark */;
 			660BB49C101D348A002DD315 = 660BB49C101D348A002DD315 /* PBXTextBookmark */;
 			660BB49D101D348A002DD315 = 660BB49D101D348A002DD315 /* PBXTextBookmark */;
 			660BB4BA101D36D7002DD315 = 660BB4BA101D36D7002DD315 /* PBXTextBookmark */;
 			660BB4BB101D36D7002DD315 = 660BB4BB101D36D7002DD315 /* PBXTextBookmark */;
-			660BB4BF101D3929002DD315 = 660BB4BF101D3929002DD315 /* PBXTextBookmark */;
-			666F41AE101E15A800EC6293 = 666F41AE101E15A800EC6293 /* PBXTextBookmark */;
-			66738D7E101E3E1100563A54 /* PBXTextBookmark */ = 66738D7E101E3E1100563A54 /* PBXTextBookmark */;
+			66586A9310C9B01A00903E2A = 66586A9310C9B01A00903E2A /* PBXTextBookmark */;
+			668FACE610C98F3F0097581E = 668FACE610C98F3F0097581E /* PBXTextBookmark */;
 		};
 		sourceControlManager = 660BB046101ABA3A002DD315 /* Source Control */;
 		userBuildSettings = {
@@ -156,7 +155,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1095, 1092}}";
 			sepNavSelRange = "{362, 0}";
-			sepNavVisRange = "{37, 1771}";
+			sepNavVisRange = "{37, 1743}";
 		};
 	};
 	660BB07C101AC1FD002DD315 /* PBXTextBookmark */ = {
@@ -171,7 +170,7 @@
 	};
 	660BB139101ACD09002DD315 /* MorseResultProcessorDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 800}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 745}}";
 			sepNavSelRange = "{49, 0}";
 			sepNavVisRange = "{0, 140}";
 			sepNavWindowFrame = "{{6, 0}, {1434, 874}}";
@@ -199,7 +198,7 @@
 	};
 	660BB22B101AEBBE002DD315 /* MorseParser.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 777}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 745}}";
 			sepNavSelRange = "{238, 0}";
 			sepNavVisRange = "{0, 320}";
 		};
@@ -207,8 +206,8 @@
 	660BB22C101AEBBE002DD315 /* MorseParser.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1095, 871}}";
-			sepNavSelRange = "{1179, 0}";
-			sepNavVisRange = "{31, 3179}";
+			sepNavSelRange = "{1648, 0}";
+			sepNavVisRange = "{161, 3055}";
 		};
 	};
 	660BB3EA101D1BA2002DD315 /* PBXTextBookmark */ = {
@@ -244,16 +243,6 @@
 		name = AudioToolbox.h;
 		path = /System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h;
 		sourceTree = "<absolute>";
-	};
-	660BB3EE101D1BA2002DD315 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 660BB22C101AEBBE002DD315 /* MorseParser.m */;
-		name = "MorseParser.m: 18";
-		rLen = 0;
-		rLoc = 444;
-		rType = 0;
-		vrLen = 3142;
-		vrLoc = 74;
 	};
 	660BB3F0101D1BA2002DD315 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -315,34 +304,24 @@
 		vrLen = 320;
 		vrLoc = 0;
 	};
-	660BB4BF101D3929002DD315 /* PBXTextBookmark */ = {
+	66586A9310C9B01A00903E2A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 660BB22C101AEBBE002DD315 /* MorseParser.m */;
-		name = "MorseParser.m: 28";
+		name = "MorseParser.m: 35";
 		rLen = 0;
-		rLoc = 1179;
+		rLoc = 1648;
 		rType = 0;
-		vrLen = 3142;
-		vrLoc = 74;
+		vrLen = 3069;
+		vrLoc = 21;
 	};
-	666F41AE101E15A800EC6293 /* PBXTextBookmark */ = {
+	668FACE610C98F3F0097581E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 660BB22C101AEBBE002DD315 /* MorseParser.m */;
-		name = "MorseParser.m: 28";
+		name = "MorseParser.m: 35";
 		rLen = 0;
-		rLoc = 1179;
+		rLoc = 1648;
 		rType = 0;
-		vrLen = 3177;
-		vrLoc = 34;
-	};
-	66738D7E101E3E1100563A54 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 660BB22C101AEBBE002DD315 /* MorseParser.m */;
-		name = "MorseParser.m: 28";
-		rLen = 0;
-		rLoc = 1179;
-		rType = 0;
-		vrLen = 3179;
-		vrLoc = 31;
+		vrLen = 3069;
+		vrLoc = 21;
 	};
 }
